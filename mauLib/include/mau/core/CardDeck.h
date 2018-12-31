@@ -1,12 +1,16 @@
 #pragma once
 
-#include "Defs.h"
+#include "mau/core/Card.h"
+
+#include <memory>
 
 namespace mau
 {
   class CardDeck
   {
   public:
+    using Ptr = std::shared_ptr<CardDeck>;
+
     void shuffle();
     void addCard(const Card& card);
 

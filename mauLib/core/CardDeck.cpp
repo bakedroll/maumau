@@ -1,4 +1,4 @@
-#include "CardDeck.h"
+#include "mau/core/CardDeck.h"
 
 #include <algorithm>
 #include <ctime>
